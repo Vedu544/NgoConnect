@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 const Layout = () => {
   return (
     <div>
+      <Navbar />
       <ToastContainer />
       <Outlet />
     </div>
